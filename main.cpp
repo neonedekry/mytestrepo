@@ -4,15 +4,7 @@
 using namespace std;
 
 int arr[5]{3,6,7,4,5};
-typedef struct{
 
-    int AdtTmp;
-    int HeaterTmp;
-    int SensorHigh;
-    int SensorLow;
-    int Status;
-
-}Com1ValuesStc;
 
 typedef struct{
 
@@ -29,10 +21,7 @@ typedef struct{
 }SeeBitsStc;
 bool readMemory(void* pVoid)
 {
-    Com1ValuesStc* pCom1 = static_cast<Com1ValuesStc*>(pVoid);
-
-    cout<< pCom1->AdtTmp;
-
+   
 }
 
 bool seeBits(void* pVoid)
